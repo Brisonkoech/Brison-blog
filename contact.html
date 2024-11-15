@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Brison's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>Contact Brison</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="posts.html">Posts</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch with me through koechbrison@gmail.com or contact me through 0708383208</h2>
+            <p>If you have any questions or comments, feel free to reach out using the form below!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Brison's Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
